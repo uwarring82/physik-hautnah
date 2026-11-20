@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Layout, Meta, Icon, Foto, Chip } from "../components/layout";
+import { Layout, Meta, Icon, Skizze, Chip } from "../components/layout";
 
 const STATUS = { da: "Laut Liste da", bestellt: "Bestellt", offen: "Offen" };
 
@@ -31,7 +31,7 @@ export default function TutorPage({ pageContext: { station: s, next } }) {
       </div>
       <div className="block">
         <h2>Aufbau</h2>
-        <Foto label="Aufbau der Station von oben" />
+        <Skizze slug={s.slug} alt={s.skizze} />
         <p className="muted">[AUFBAU IN SCHRITTEN] Folgt nach dem Probeaufbau.</p>
       </div>
     </section>

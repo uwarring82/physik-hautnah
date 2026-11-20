@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Layout, Meta, Icon, Foto, Chip } from "../components/layout";
+import { Layout, Meta, Icon, Skizze, Chip } from "../components/layout";
 
 // Ebene 2: Experimentseite zum Nachlesen für Kinder und Eltern.
 export default function ExperimentPage({ pageContext: { station: s, next } }) {
@@ -16,7 +16,7 @@ export default function ExperimentPage({ pageContext: { station: s, next } }) {
           <h1>{s.name}</h1>
           {s.fragen.map(frage => <p key={frage} className="question">{frage}</p>)}
         </div>
-        <Foto label={s.foto} />
+        <Skizze slug={s.slug} alt={s.skizze} eager />
       </div>
     </section>
 

@@ -27,7 +27,9 @@ Gatsby zeigt die Entwicklungsfassung unter http://localhost:8000/ an. Für die P
 
 - `src/data/stations.json` enthält alle Texte der vier Stationen für Ebene 2 und 3.
 - `src/pages/index.jsx` ist der Einstieg, `src/templates/experiment.jsx` die Experimentseite, `src/templates/tutor.jsx` die Tutorenseite. Eine fünfte Station braucht nur einen weiteren Eintrag in `stations.json` und eine Farbzuordnung in `site.css`.
-- `static/bilder/` enthält Illustrationen der früheren Fassung. Die Seite bindet sie derzeit nicht ein.
+- `src/data/reserve.json` hält die Texte der Station „Der Zauberstab“ vor. Sie ist vorerst durch die Wärmebildkamera ersetzt und wird nicht gebaut.
+- `static/bilder/skizzen/` enthält die Bleistiftskizzen der vier Stationen. Sie stehen an den Fotoplätzen, bis Fotos der echten Aufbauten vorliegen, und sind nach der Materialliste gezeichnet, nicht nach den Aufbauten. `node scripts/skizzen.cjs` erzeugt sie neu.
+- `static/bilder/*.webp` sind Illustrationen der früheren Fassung. Die Seite bindet sie derzeit nicht ein.
 - GitHub Actions baut bei jedem Push auf `main` mit Gatsby und veröffentlicht das Ergebnis auf GitHub Pages.
 
 ## Gestaltung

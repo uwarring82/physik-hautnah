@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Layout, Meta, Icon, Foto } from "../components/layout";
+import { Layout, Meta, Icon, Skizze } from "../components/layout";
 import stations from "../data/stations.json";
 
 // Ebene 1: Einstieg für Lehrkräfte und Schulen.
@@ -16,7 +16,7 @@ export default function HomePage() {
           <a className="textlink" href="#experimente">Die vier Experimente ansehen</a>
         </div>
       </div>
-      <Foto label="Schwebender Ball im senkrechten Luftstrom" />
+      <Skizze slug={stations[0].slug} alt={stations[0].skizze} eager />
     </section>
 
     <section className="shell section" id="experimente">
@@ -65,4 +65,4 @@ export default function HomePage() {
   </Layout>;
 }
 
-export const Head = () => <Meta title="Physik für die Grundschule" description="Physik Hautnah besucht Grundschulen mit vier Experimentierstationen: Ballfalle, Elektromotor, Zauberstab und Mikroskop." />;
+export const Head = () => <Meta title="Physik für die Grundschule" description="Physik Hautnah besucht Grundschulen mit vier Experimentierstationen: Ballfalle, Elektromotor, Wärmebildkamera und Mikroskop." />;

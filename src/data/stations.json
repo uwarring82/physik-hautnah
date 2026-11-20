@@ -55,7 +55,8 @@
         "status": "da",
         "note": ""
       }
-    ]
+    ],
+    "skizze": "Bleistiftskizze: Ein Gebläse bläst Luft durch ein senkrechtes Rohr. Über dem Rohr schwebt ein Ball."
   },
   {
     "name": "Der Elektromotor",
@@ -109,72 +110,59 @@
         "status": "offen",
         "note": "Reserve, falls eine Gruppe früher fertig ist"
       }
-    ]
+    ],
+    "skizze": "Bleistiftskizze: Eine Batterie steht auf einem Magneten. Ein gebogener Draht liegt oben auf und reicht beidseitig zum Magneten."
   },
   {
-    "name": "Der Zauberstab",
-    "short": "Zauberstab",
-    "icon": "wand",
+    "name": "Die Wärmebildkamera",
+    "short": "Wärmebildkamera",
+    "icon": "kamera",
     "fragen": [
-      "Was macht der leichte Streifen, wenn du ihm den Stab näherst?",
-      "Was ändert sich, nachdem du den Stab gerieben hast?"
+      "Was ist am kältesten im Raum?",
+      "Welchen Einfluss hat eine Brille im Gesicht?"
     ],
-    "karte": "Was macht der leichte Streifen, wenn du ihm den Stab näherst?",
-    "foto": "Geriebener Stab, der einen Lamettastreifen anzieht",
-    "sehen": "Ein Stab aus Kunststoff sieht ganz gewöhnlich aus. Reibst du ihn mit einem Tuch, zieht er leichte Lamettastreifen an, ohne sie zu berühren.",
+    "karte": "Was ist am kältesten im Raum?",
+    "foto": "Kind mit Brille vor der Wärmebildkamera",
+    "sehen": "Die Wärmebildkamera macht Wärme sichtbar. Auf ihrem Bildschirm haben warme und kalte Dinge verschiedene Farben.",
     "probieren": [
-      "Halte den Stab an den Streifen, bevor du reibst.",
-      "Reibe den Stab kräftig mit dem Tuch.",
-      "Nähere ihn dem Streifen noch einmal. Was ist jetzt anders?"
+      "Suche mit der Kamera die wärmste und die kälteste Stelle im Raum.",
+      "Vermute zuerst: Wie sieht ein Gesicht mit Brille im Wärmebild aus?",
+      "Schau nach. Schreibe oder zeichne, was du entdeckst."
     ],
-    "warum": "Beim Reiben wandern winzige elektrische Ladungen zwischen Tuch und Stab. Danach ist der Stab elektrisch geladen. Geladene Dinge ziehen leichte Dinge an, auch aus etwas Abstand.",
-    "vermuten": "„Was passiert, wenn der Stab dem Streifen nahe kommt? Und nach dem Reiben?“",
-    "ausprobieren": "Erst ohne Reiben, dann mit. Den elektrischen Zauberstab führst du selbst vor.",
-    "festhalten": "Vorher und nachher kommen als Beschreibung oder Zeichnung ins Entdeckerbuch.",
-    "hintergrund": "Beim Reiben kommen Tuch und Stab in engen Kontakt. Dabei gehen Ladungen über, und beide sind danach entgegengesetzt geladen. Der geladene Stab verschiebt die Ladungen im Streifen und zieht ihn an. Berührt der Streifen den Stab, nimmt er gleichnamige Ladung auf und wird abgestoßen.",
+    "warum": "Alles gibt Wärmestrahlung ab. Unsere Augen sehen sie nicht, die Kamera kann sie messen: Je wärmer etwas ist, desto stärker strahlt es. Durch Brillenglas kommt diese Strahlung nicht hindurch. Die Kamera sieht deshalb das Glas und nicht die Haut dahinter.",
+    "vermuten": "„Was glaubst du: Wo ist es im Raum am kältesten?“",
+    "ausprobieren": "Die Kinder suchen den Raum mit der Kamera ab. Danach schauen sie ein Gesicht mit Brille an.",
+    "festhalten": "Die kälteste Stelle und die Beobachtung zur Brille kommen ins Entdeckerbuch.",
+    "hintergrund": "Die Kamera misst langwellige Infrarotstrahlung, typischerweise bei 8 bis 14 Mikrometern, und rechnet sie in Temperaturen um. Brillenglas ist in diesem Bereich undurchlässig: Die Kamera sieht die Oberfläche des Glases, nicht die Haut dahinter. Blanke Metallflächen und Fensterscheiben spiegeln Wärmestrahlung aus der Umgebung und zeigen deshalb oft eine falsche Temperatur.",
     "achten": [
-      "Feuchte Luft schwächt den Effekt. Teste den Versuch vor der Stunde im Klassenraum.",
-      "Laut Unterrichtsplan wird der Zauberstab schon bei der Vorstellung der Stationen vorgemacht."
+      "Mit einer Kamera misst immer nur ein Kind. Lege die Reihenfolge in der Gruppe vorher fest.",
+      "Fenster und blankes Metall spiegeln Wärmestrahlung. Die kälteste Stelle im Bild ist nicht immer die kälteste im Raum.",
+      "Die Kinder richten die Kamera nur auf Mitschülerinnen und Mitschüler, die einverstanden sind."
     ],
     "offen": [
-      "Die Heftseite fehlt: Im Faltheft steht an dieser Stelle noch die Wärmebildkamera.",
-      "Die Kinderfrage ist ein Vorschlag aus dem Whitepaper und noch nicht abgestimmt.",
-      "Lieferung von Lametta und zwei elektrischen Zauberstäben abwarten.",
+      "Drei Kameras sind bestellt. Laut Versuchsliste läuft die Station erst, wenn sie eingetroffen sind.",
+      "Der Unterrichtsplan nennt an dieser Stelle noch den Zauberstab.",
       "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
     ],
-    "slug": "zauberstab",
+    "slug": "waermebildkamera",
     "material": [
       {
-        "name": "2 Kunststoffstäbe und 2 Plexiglasstäbe",
+        "name": "1 Wärmebildkamera",
         "status": "da",
         "note": ""
       },
       {
-        "name": "3 Reibtücher",
-        "status": "da",
-        "note": ""
-      },
-      {
-        "name": "5 Lamettastreifen",
-        "status": "da",
-        "note": ""
-      },
-      {
-        "name": "15 weitere Lamettastreifen",
+        "name": "3 weitere Wärmebildkameras",
         "status": "bestellt",
-        "note": ""
+        "note": "lange Lieferzeit"
       },
       {
-        "name": "1 elektrischer Zauberstab",
-        "status": "da",
-        "note": ""
-      },
-      {
-        "name": "2 weitere elektrische Zauberstäbe",
-        "status": "bestellt",
-        "note": ""
+        "name": "Brille zum Ausprobieren",
+        "status": "offen",
+        "note": "falls in der Gruppe kein Kind eine trägt"
       }
-    ]
+    ],
+    "skizze": "Bleistiftskizze: Eine Wärmebildkamera ist auf das Gesicht eines Kindes mit Brille gerichtet. Auf dem Bildschirm steht ein Fragezeichen."
   },
   {
     "name": "Das Mikroskop",
@@ -233,6 +221,7 @@
         "status": "offen",
         "note": "noch vorzubereiten"
       }
-    ]
+    ],
+    "skizze": "Bleistiftskizze: Ein Handy liegt unter einem Mikroskop. Ein Kreis daneben zeigt den Bildschirm stark vergrößert als Raster kleiner Felder."
   }
 ]

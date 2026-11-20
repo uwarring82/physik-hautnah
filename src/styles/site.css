@@ -22,7 +22,7 @@
 /* Die vier Zusatzfarben des CD kennzeichnen die vier Stationen. */
 .tone-ballfalle { --tone: var(--gruen); --tone-soft: var(--gruen-20); }
 .tone-elektromotor { --tone: var(--gelb); --tone-soft: var(--gelb-40); }
-.tone-zauberstab { --tone: var(--rosa); --tone-soft: var(--rosa-40); }
+.tone-waermebildkamera, .tone-zauberstab { --tone: var(--rosa); --tone-soft: var(--rosa-40); }
 .tone-mikroskop { --tone: var(--braun); --tone-soft: var(--braun-20); }
 
 * { box-sizing: border-box; }
@@ -68,6 +68,11 @@ p { margin: 0; }
 /* Platzhalter für ein Foto */
 .foto { display: flex; flex-direction: column; justify-content: flex-end; gap: .2rem; min-height: 21rem; padding: 1.2rem; border: 2px dashed var(--blau); background: var(--paper); color: var(--muted); font-size: .95rem; }
 .foto strong { color: var(--blau); letter-spacing: .05em; }
+
+/* Bleistiftskizze am Fotoplatz */
+.skizze { display: flex; flex-direction: column; gap: .4rem; margin: 0; min-width: 0; }
+.skizze img { display: block; width: 100%; height: auto; background: var(--paper); border: 1px solid var(--line); }
+.skizze figcaption { font-size: .88rem; color: var(--muted); }
 
 /* Ebene 1 */
 .hero { display: grid; grid-template-columns: 1.3fr 1fr; align-items: center; gap: clamp(1.6rem, 4vw, 4rem); padding-block: clamp(2.4rem, 5vw, 4rem); }

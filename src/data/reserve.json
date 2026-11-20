@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Der Zauberstab",
+    "short": "Zauberstab",
+    "icon": "wand",
+    "fragen": [
+      "Was macht der leichte Streifen, wenn du ihm den Stab näherst?",
+      "Was ändert sich, nachdem du den Stab gerieben hast?"
+    ],
+    "karte": "Was macht der leichte Streifen, wenn du ihm den Stab näherst?",
+    "foto": "Geriebener Stab, der einen Lamettastreifen anzieht",
+    "sehen": "Ein Stab aus Kunststoff sieht ganz gewöhnlich aus. Reibst du ihn mit einem Tuch, zieht er leichte Lamettastreifen an, ohne sie zu berühren.",
+    "probieren": [
+      "Halte den Stab an den Streifen, bevor du reibst.",
+      "Reibe den Stab kräftig mit dem Tuch.",
+      "Nähere ihn dem Streifen noch einmal. Was ist jetzt anders?"
+    ],
+    "warum": "Beim Reiben wandern winzige elektrische Ladungen zwischen Tuch und Stab. Danach ist der Stab elektrisch geladen. Geladene Dinge ziehen leichte Dinge an, auch aus etwas Abstand.",
+    "vermuten": "„Was passiert, wenn der Stab dem Streifen nahe kommt? Und nach dem Reiben?“",
+    "ausprobieren": "Erst ohne Reiben, dann mit. Den elektrischen Zauberstab führst du selbst vor.",
+    "festhalten": "Vorher und nachher kommen als Beschreibung oder Zeichnung ins Entdeckerbuch.",
+    "hintergrund": "Beim Reiben kommen Tuch und Stab in engen Kontakt. Dabei gehen Ladungen über, und beide sind danach entgegengesetzt geladen. Der geladene Stab verschiebt die Ladungen im Streifen und zieht ihn an. Berührt der Streifen den Stab, nimmt er gleichnamige Ladung auf und wird abgestoßen.",
+    "achten": [
+      "Feuchte Luft schwächt den Effekt. Teste den Versuch vor der Stunde im Klassenraum.",
+      "Laut Unterrichtsplan wird der Zauberstab schon bei der Vorstellung der Stationen vorgemacht."
+    ],
+    "offen": [
+      "Die Heftseite fehlt: Im Faltheft steht an dieser Stelle noch die Wärmebildkamera.",
+      "Die Kinderfrage ist ein Vorschlag aus dem Whitepaper und noch nicht abgestimmt.",
+      "Lieferung von Lametta und zwei elektrischen Zauberstäben abwarten.",
+      "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ],
+    "slug": "zauberstab",
+    "material": [
+      {
+        "name": "2 Kunststoffstäbe und 2 Plexiglasstäbe",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "3 Reibtücher",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "5 Lamettastreifen",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "15 weitere Lamettastreifen",
+        "status": "bestellt",
+        "note": ""
+      },
+      {
+        "name": "1 elektrischer Zauberstab",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "2 weitere elektrische Zauberstäbe",
+        "status": "bestellt",
+        "note": ""
+      }
+    ]
+  }
+]

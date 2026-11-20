@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, withPrefix } from "gatsby";
 import stations from "../data/stations.json";
 import "../styles/site.css";
 
@@ -7,11 +7,20 @@ const ICONS = {
   ball: <><circle cx="12" cy="6.5" r="3.5" /><path d="M7.5 21v-5" /><path d="M12 21v-8" /><path d="M16.5 21v-5" /></>,
   motor: <><rect x="9" y="6" width="6" height="11" rx="1" /><path d="M11 6V4.5h2V6" /><rect x="7.5" y="17" width="9" height="3" rx="1" /><path d="M12 4.5C5 5 4 15 7.5 18.5" /><path d="M12 4.5c7 .5 8 10.5 4.5 14" /></>,
   wand: <><path d="M15 4V2" /><path d="M15 16v-2" /><path d="M8 9h2" /><path d="M20 9h2" /><path d="M17.8 11.8 19 13" /><path d="M15 9h.01" /><path d="M17.8 6.2 19 5" /><path d="m3 21 9-9" /><path d="M12.2 6.2 11 5" /></>,
+  kamera: <><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" /><circle cx="12" cy="13" r="3" /></>,
   mikro: <><path d="M6 18h8" /><path d="M3 22h18" /><path d="M14 22a7 7 0 1 0 0-14h-1" /><path d="M9 14h2" /><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z" /><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3" /></>,
 };
 
 export function Icon({ name, size = 44 }) {
   return <svg className="icon" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{ICONS[name]}</svg>;
+}
+
+// Bleistiftskizze am Fotoplatz, bis ein Foto des echten Aufbaus vorliegt.
+export function Skizze({ slug, alt, eager }) {
+  return <figure className="skizze">
+    <img src={withPrefix("/bilder/skizzen/" + slug + ".svg")} alt={alt} width="640" height="420" loading={eager ? "eager" : "lazy"} />
+    <figcaption>Skizze. Ein Foto folgt.</figcaption>
+  </figure>;
 }
 
 export function Foto({ label }) {
