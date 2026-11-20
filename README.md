@@ -1,12 +1,16 @@
 # Physik Hautnah
 
-Eine illustrierte Gatsby-Webseite für Lehrkräfte und Schulen, Eltern und Kinder sowie Tutorinnen und Tutoren. Sie führt in drei Ebenen von allgemein zu genau:
+Projektseite zum Grundschulprogramm „Physik Hautnah“ für Lehrkräfte und Schulen, Eltern und Kinder sowie Tutorinnen und Tutoren. Sie führt in drei Ebenen von allgemein zu genau:
 
 1. **Einstieg** (`/`): das Angebot für Schulen, die vier Stationen, der Ablauf des Besuchs.
-2. **Versuchsseiten** (`/versuche/<name>/`): Frage, Versuch zum Nachmachen, fachliche Vertiefung, Link zur Materialliste.
-3. **Stationsseiten** (`/versuche/<name>/station/`): Material mit Status, Aufbau und Hinweise für alle, die den Tisch beim Schulbesuch betreuen.
+2. **Experimentseiten** (`/experimente/<name>/`): die Kinderfrage, „Das siehst du“, „Probier es aus“ und „Warum ist das so?“.
+3. **Tutorenseiten** (`/experimente/<name>/tutoren/`): Material mit Status, Aufbau, Fragen für den Tisch, fachlicher Hintergrund, Hinweise und offene Punkte.
 
-[Webseite](https://uwarring82.github.io/physik-hautnah/) · [Materialliste](https://uwarring82.github.io/physik-hautnah/material/)
+[Webseite](https://uwarring82.github.io/physik-hautnah/)
+
+## Stand
+
+Entwurf 0.3. Text in [Klammern] ist ein Platzhalter. Die Erklärtexte sind als „Entwurf, fachlich noch zu prüfen“ markiert. Material und Status stammen aus der Versuchsliste, der Ablauf aus dem Unterrichtsplan, die Kinderfragen aus dem Entdeckerbuch.
 
 ## Lokal arbeiten
 
@@ -21,16 +25,11 @@ Gatsby zeigt die Entwicklungsfassung unter http://localhost:8000/ an. Für die P
 
 ## Inhalte bearbeiten
 
-- `src/data/experiments.json` enthält die Texte und Quellen zu allen vier Versuchen.
-- `src/data/material.json` enthält Einkaufsmengen, Leihalternativen und datierte Preisbeispiele.
-- `src/data/stations.json` enthält die Angaben für die Stationsseiten: Fragen im Entdeckerbuch, Material mit Status, Hinweise für den Tisch und offene Punkte.
-- `src/pages/index.jsx` organisiert die Startseite, `src/templates/experiment.jsx` die Versuchsseiten und `src/templates/station.jsx` die Stationsseiten.
-- Text in [Klammern] ist ein Platzhalter und wird noch ergänzt.
-- `static/bilder/` enthält die für das Projekt erstellten Illustrationen. Sie zeigen die Versuche schematisch.
-- GitHub Actions baut bei jedem Push auf `main` mit Gatsby und veröffentlicht das Ergebnis auf GitHub Pages. Die Veröffentlichungsquelle ist **GitHub Actions**.
-
-Die Inhalte greifen die Unterrichtsunterlagen „Physik Hautnah“, das Entdeckerbuch und das Whitepaper auf. Die Versuchsseite zum Elektromotor verwendet für Zuhause und Grundschule einen gekapselten Kleinmotor. Die Stationsseite beschreibt den Selbstbau aus dem Unterrichtsplan und führt die Wahl der Variante als offenen Punkt. Die Stationsauswahl legt weder Gruppengröße noch Personalbedarf fest.
+- `src/data/stations.json` enthält alle Texte der vier Stationen für Ebene 2 und 3.
+- `src/pages/index.jsx` ist der Einstieg, `src/templates/experiment.jsx` die Experimentseite, `src/templates/tutor.jsx` die Tutorenseite. Eine fünfte Station braucht nur einen weiteren Eintrag in `stations.json` und eine Farbzuordnung in `site.css`.
+- `static/bilder/` enthält Illustrationen der früheren Fassung. Die Seite bindet sie derzeit nicht ein.
+- GitHub Actions baut bei jedem Push auf `main` mit Gatsby und veröffentlicht das Ergebnis auf GitHub Pages.
 
 ## Gestaltung
 
-Farben und Schriftregeln folgen dem Corporate Design der Universität Freiburg (https://cd.uni-freiburg.de/). Die Farbwerte stehen als Variablen am Anfang von `src/styles/site.css`. Die Hausschrift Social ist lizenzpflichtig und wird nicht eingebettet. Die Seite verwendet Arial, die das Corporate Design für den Arbeitsalltag vorsieht. Das Universitätslogo ist nicht enthalten: Die offiziellen Dateien liegen im Intranet der Universität.
+Farben und Satzregeln folgen dem Corporate Design der Universität Freiburg (https://cd.uni-freiburg.de/). Die Farbwerte stehen als Variablen am Anfang von `src/styles/site.css`. Die vier Zusatzfarben kennzeichnen die vier Stationen. Die Hausschrift Social ist lizenzpflichtig und wird nicht eingebettet. Die Seite verwendet Arial, die das Corporate Design für den Arbeitsalltag vorsieht. Das Universitätslogo ist nicht enthalten: Die offiziellen Dateien liegen im Intranet der Universität. Im Fuß der Seite ist der Platz dafür markiert.

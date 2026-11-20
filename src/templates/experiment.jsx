@@ -1,27 +1,41 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Layout, Meta, Sources, imagePath } from "../components/layout";
-import ColorSample from "../components/color-sample";
-import materials from "../data/material.json";
+import { Layout, Meta, Icon, Foto, Chip } from "../components/layout";
 
-export default function ExperimentPage({ pageContext: { experiment: ex } }) {
-  const material = materials.find(item => item.slug === ex.slug);
-  return <Layout><div className={"shell tone-" + ex.slug}>
-    <p className="crumb"><Link to="/">Physik Hautnah</Link> / {ex.name}</p>
-    <div className="project-hero"><div><p className="eyebrow">{ex.name} · {ex.field}</p><h1>{ex.question}</h1><p className="lead">{ex.intro}</p></div>
-      <img alt={ex.alt} src={imagePath(ex.image)} /></div>
-    <div className="reading-grid"><div className="reading">
-      <section><h2>Probier es aus</h2><ol className="steps">{ex.steps.map(step => <li key={step}>{step}</li>)}</ol></section>
-      {ex.slug === "mikroskopie" && <ColorSample />}
-      <details><summary>Was steckt dahinter?</summary><p>{ex.explain}</p></details>
-      <section className="follow"><h2>Deine nächste Frage</h2><p>{ex.next}</p></section>
-      <details><summary>Weiterlesen</summary><Sources links={ex.sources} /></details>
-    </div><aside className="kit"><p className="eyebrow">Für diesen Versuch</p><h2>Das brauchst du</h2><p>{material.home}</p><Link className="textlink" to={"/material/#" + ex.slug}>Material und Kosten</Link><h3>Für die Begleitung</h3><p>{ex.care}</p></aside></div>
-    <section className="station-cta">
-      <div><h2>Du betreust diese Station beim Schulbesuch?</h2><p>Material, Aufbau und Fragen für den Tisch stehen eine Ebene tiefer.</p></div>
-      <Link className="button" to={"/versuche/" + ex.slug + "/station/"}>Station vorbereiten</Link>
+// Ebene 2: Experimentseite zum Nachlesen für Kinder und Eltern.
+export default function ExperimentPage({ pageContext: { station: s, next } }) {
+  return <Layout>
+    <nav className="shell crumb" aria-label="Brotkrumen">
+      <Link to="/">Physik Hautnah</Link><span aria-hidden="true">/</span><span aria-current="page">{s.name}</span>
+    </nav>
+
+    <section className={"x-hero tone-" + s.slug}>
+      <div className="shell">
+        <div className="x-text">
+          <Icon name={s.icon} size={60} />
+          <h1>{s.name}</h1>
+          {s.fragen.map(frage => <p key={frage} className="question">{frage}</p>)}
+        </div>
+        <Foto label={s.foto} />
+      </div>
     </section>
-    <p className="back"><Link to="/#versuche">Weitere Versuche entdecken</Link></p>
-  </div></Layout>;
+
+    <section className="shell section cols">
+      <div className="col"><h2>Das siehst du</h2><p>{s.sehen}</p></div>
+      <div className="col"><h2>Probier es aus</h2><ol>{s.probieren.map(schritt => <li key={schritt}>{schritt}</li>)}</ol></div>
+      <div className="col"><h2>Warum ist das so?</h2><p>{s.warum}</p><Chip kind="entwurf">Entwurf, fachlich noch zu prüfen</Chip></div>
+    </section>
+
+    <section className="band">
+      <div className="shell section cta">
+        <div className="cta-text"><h2>Du betreust diese Station?</h2><p>Material, Aufbau, Fragen für den Tisch und der fachliche Hintergrund stehen eine Ebene tiefer.</p></div>
+        <div className="actions">
+          <Link className="button" to={"/experimente/" + s.slug + "/tutoren/"}>Station vorbereiten</Link>
+          <Link className="textlink" to={"/experimente/" + next.slug + "/"}>Weiter: {next.name}</Link>
+        </div>
+      </div>
+    </section>
+  </Layout>;
 }
-export const Head = ({ pageContext: { experiment } }) => <Meta title={experiment.name} description={experiment.intro} />;
+
+export const Head = ({ pageContext: { station } }) => <Meta title={station.name} description={station.karte + " Das Experiment zum Nachlesen."} />;

@@ -1,113 +1,238 @@
 [
   {
-    "slug": "ballfalle",
-    "heft": [
+    "name": "Die Ballfalle",
+    "short": "Ballfalle",
+    "icon": "ball",
+    "fragen": [
       "Wie viele Bälle kannst du gleichzeitig im Luftstrom fangen?",
       "Was passiert, wenn du das Gebläserohr schräg stellst?"
     ],
-    "difference": "Beim Schulbesuch ersetzen ein Gebläse mit Schlauch und Styroporkugeln den Föhn und den Tischtennisball von der Versuchsseite.",
-    "material": [
-      { "name": "2 Gebläse mit Schlauch", "status": "da", "note": "eines davon geliehen" },
-      { "name": "Styroporkugeln, mehr als 5", "status": "da" },
-      { "name": "Stativ", "status": "da" },
-      { "name": "Zweites Stativ für das zweite Gebläse", "status": "offen", "note": "noch zu besorgen" },
-      { "name": "Netzkabel", "status": "da" }
+    "karte": "Wie viele Bälle kannst du gleichzeitig im Luftstrom fangen?",
+    "foto": "Schwebender Ball über dem Gebläserohr",
+    "sehen": "Ein Gebläse pustet Luft durch ein Rohr nach oben. Legst du einen leichten Ball in den Luftstrom, bleibt er darin schweben.",
+    "probieren": [
+      "Lege einen Ball in den Luftstrom. Dann einen zweiten.",
+      "Vermute zuerst: Was passiert, wenn das Rohr schräg steht?",
+      "Neige das Rohr langsam und beobachte, wo der Ball bleibt."
     ],
-    "predict": "„Was glaubst du: Bleibt der Ball, wenn das Rohr schräg steht?“",
-    "try": "Die Kinder neigen das Rohr selbst und langsam. Lass sie zählen, wie viele Bälle gleichzeitig schweben.",
-    "record": "Die Zahl der Bälle und die Beobachtung zum schrägen Rohr kommen ins Entdeckerbuch.",
-    "watch": [
+    "warum": "Die Luft strömt von unten gegen den Ball und trägt ihn. Rutscht der Ball zur Seite, lenkt er die Luft ab, und die Luft schiebt ihn dabei zurück in die Mitte. Deshalb bleibt er sogar im schrägen Luftstrom.",
+    "vermuten": "„Was glaubst du: Bleibt der Ball, wenn das Rohr schräg steht?“",
+    "ausprobieren": "Die Kinder neigen das Rohr selbst und langsam. Lass sie zählen, wie viele Bälle gleichzeitig schweben.",
+    "festhalten": "Die Zahl der Bälle und die Beobachtung zum schrägen Rohr kommen ins Entdeckerbuch.",
+    "hintergrund": "Der Luftstrahl übt auf den Ball eine Kraft nach oben aus, die sein Gewicht ausgleicht. Die Luft legt sich an die Kugel an und wird von ihr umgelenkt. Sitzt der Ball nicht mittig, wird der Strahl zur Seite abgelenkt, und die Gegenkraft drückt den Ball zurück zur Strahlmitte. Die verbreitete Kurzformel „Bernoulli“ erklärt das schräge Rohr schlecht. Hier trägt die Umlenkung des Strahls.",
+    "achten": [
       "Die Station braucht eine Steckdose. Lege das Kabel so, dass niemand darüber stolpert.",
       "Mit zwei Gebläsen können zwei Kinder gleichzeitig arbeiten, sobald das zweite Stativ da ist."
     ],
-    "open": [
+    "offen": [
       "Zweites Stativ besorgen.",
       "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ],
+    "slug": "ballfalle",
+    "material": [
+      {
+        "name": "2 Gebläse mit Schlauch",
+        "status": "da",
+        "note": "eines davon geliehen"
+      },
+      {
+        "name": "Styroporkugeln, mehr als 5",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "Stativ",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "Zweites Stativ für das zweite Gebläse",
+        "status": "offen",
+        "note": "noch zu besorgen"
+      },
+      {
+        "name": "Netzkabel",
+        "status": "da",
+        "note": ""
+      }
     ]
   },
   {
-    "slug": "elektromotor",
-    "heft": [
+    "name": "Der Elektromotor",
+    "short": "Elektromotor",
+    "icon": "motor",
+    "fragen": [
       "Was muss der Draht berühren, damit er sich dreht?"
     ],
-    "difference": "Die Versuchsseite beschreibt einen gekapselten Kleinmotor. Der Unterrichtsplan sieht für den Schulbesuch den Selbstbau aus Draht, Batterie und Neodym-Magnet vor. Die Angaben hier gelten für den Selbstbau.",
-    "material": [
-      { "name": "Draht", "status": "offen", "note": "[SORTE UND LÄNGE], Bestand prüfen" },
-      { "name": "Batterien", "status": "offen", "note": "[TYP UND ANZAHL], Bestand prüfen" },
-      { "name": "Neodym-Magnete", "status": "offen", "note": "Bestand prüfen. Ausgabe nur durch die Betreuung" },
-      { "name": "Einfache Magnete und Gegenstände zum Sortieren", "status": "offen", "note": "Reserve, falls eine Gruppe früher fertig ist" }
+    "karte": "Was muss der Draht berühren, damit er sich dreht?",
+    "foto": "Batterie auf dem Magneten, darüber der gebogene Draht",
+    "sehen": "Eine Batterie steht auf einem kleinen, starken Magneten. Ein gebogener Draht sitzt oben auf der Batterie. Liegt er an den richtigen Stellen an, beginnt er sich zu drehen.",
+    "probieren": [
+      "Setze den Draht auf die Batterie.",
+      "Finde heraus, welche Stellen der Draht berühren muss.",
+      "Schreibe oder zeichne die Stellen in dein Entdeckerbuch."
     ],
-    "predict": "„Wo muss der Draht anliegen, damit Strom fließt?“",
-    "try": "Die Kinder setzen den Draht selbst auf. Du gibst den Magneten aus und sammelst ihn wieder ein.",
-    "record": "Die Kontaktstellen kommen als Satz oder als Skizze ins Entdeckerbuch.",
-    "watch": [
+    "warum": "Strom fließt nur im geschlossenen Kreis: von der Batterie durch den Draht zum Magneten und zurück. Der Magnet schiebt den Draht, in dem Strom fließt, zur Seite. Weil der Draht rundherum gebogen ist, dreht er sich im Kreis.",
+    "vermuten": "„Wo muss der Draht anliegen, damit Strom fließt?“",
+    "ausprobieren": "Die Kinder setzen den Draht selbst auf. Du gibst den Magneten aus und sammelst ihn wieder ein.",
+    "festhalten": "Die Kontaktstellen kommen als Satz oder als Skizze ins Entdeckerbuch.",
+    "hintergrund": "Der Aufbau ist ein Homopolarmotor. Der Strom fließt vom oberen Pol der Batterie durch den Draht zum Magneten, der leitend an der Unterseite der Batterie sitzt. Im Feld des Magneten wirkt auf die stromdurchflossenen Drahtstücke eine Kraft quer zu Strom und Feld. Daraus entsteht ein Drehmoment um die Achse der Batterie.",
+    "achten": [
       "Lege die Neodym-Magnete nicht offen hin. Du gibst sie aus und zählst sie am Ende.",
-      "Beim Selbstbau ist die Batterie fast kurzgeschlossen. Draht und Batterie werden warm: nach kurzer Zeit absetzen und abkühlen lassen.",
+      "Beim Drehen ist die Batterie fast kurzgeschlossen. Draht und Batterie werden warm: nach kurzer Zeit absetzen und abkühlen lassen.",
       "Reserve aus dem Unterrichtsplan: mit einfachen Magneten sortieren, was magnetisch ist."
     ],
-    "note": "Der Selbstbau ist ein Homopolarmotor. Der Strom fließt vom oberen Pol der Batterie durch den Draht zum Magneten, der leitend an der Unterseite der Batterie sitzt. Im Feld des Magneten wirkt auf die stromdurchflossenen Drahtstücke eine Kraft quer zu Strom und Feld. Daraus entsteht ein Drehmoment um die Achse der Batterie.",
-    "open": [
-      "Entscheiden, welche Variante beim Schulbesuch läuft: Selbstbau mit Neodym-Magnet oder gekapselter Kleinmotor.",
+    "offen": [
       "Drahtsorte, Batterietyp und Stückzahl festlegen.",
       "Erwärmung am echten Aufbau testen und eine Zeitgrenze festlegen.",
       "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ],
+    "slug": "elektromotor",
+    "material": [
+      {
+        "name": "Draht",
+        "status": "offen",
+        "note": "[SORTE UND LÄNGE], Bestand prüfen"
+      },
+      {
+        "name": "Batterien",
+        "status": "offen",
+        "note": "[TYP UND ANZAHL], Bestand prüfen"
+      },
+      {
+        "name": "Neodym-Magnete",
+        "status": "offen",
+        "note": "Bestand prüfen. Ausgabe nur durch die Betreuung"
+      },
+      {
+        "name": "Einfache Magnete und Gegenstände zum Sortieren",
+        "status": "offen",
+        "note": "Reserve, falls eine Gruppe früher fertig ist"
+      }
     ]
   },
   {
-    "slug": "zauberstab",
-    "heft": [
+    "name": "Der Zauberstab",
+    "short": "Zauberstab",
+    "icon": "wand",
+    "fragen": [
       "Was macht der leichte Streifen, wenn du ihm den Stab näherst?",
       "Was ändert sich, nachdem du den Stab gerieben hast?"
     ],
-    "heftNote": "Vorschlag aus dem Whitepaper. Im Faltheft steht an dieser Stelle noch die Wärmebildkamera.",
-    "difference": "Beim Schulbesuch ersetzen Kunststoff- und Plexiglasstäbe mit Lamettastreifen das Lineal und die Papierschnipsel von der Versuchsseite.",
-    "material": [
-      { "name": "2 Kunststoffstäbe und 2 Plexiglasstäbe", "status": "da" },
-      { "name": "3 Reibtücher", "status": "da" },
-      { "name": "5 Lamettastreifen", "status": "da" },
-      { "name": "15 weitere Lamettastreifen", "status": "bestellt" },
-      { "name": "1 elektrischer Zauberstab", "status": "da" },
-      { "name": "2 weitere elektrische Zauberstäbe", "status": "bestellt" }
+    "karte": "Was macht der leichte Streifen, wenn du ihm den Stab näherst?",
+    "foto": "Geriebener Stab, der einen Lamettastreifen anzieht",
+    "sehen": "Ein Stab aus Kunststoff sieht ganz gewöhnlich aus. Reibst du ihn mit einem Tuch, zieht er leichte Lamettastreifen an, ohne sie zu berühren.",
+    "probieren": [
+      "Halte den Stab an den Streifen, bevor du reibst.",
+      "Reibe den Stab kräftig mit dem Tuch.",
+      "Nähere ihn dem Streifen noch einmal. Was ist jetzt anders?"
     ],
-    "predict": "„Was passiert, wenn der Stab dem Streifen nahe kommt? Und nach dem Reiben?“",
-    "try": "Erst ohne Reiben, dann mit. Den elektrischen Zauberstab führst du selbst vor.",
-    "record": "Vorher und nachher kommen als Beschreibung oder Zeichnung ins Entdeckerbuch.",
-    "watch": [
+    "warum": "Beim Reiben wandern winzige elektrische Ladungen zwischen Tuch und Stab. Danach ist der Stab elektrisch geladen. Geladene Dinge ziehen leichte Dinge an, auch aus etwas Abstand.",
+    "vermuten": "„Was passiert, wenn der Stab dem Streifen nahe kommt? Und nach dem Reiben?“",
+    "ausprobieren": "Erst ohne Reiben, dann mit. Den elektrischen Zauberstab führst du selbst vor.",
+    "festhalten": "Vorher und nachher kommen als Beschreibung oder Zeichnung ins Entdeckerbuch.",
+    "hintergrund": "Beim Reiben kommen Tuch und Stab in engen Kontakt. Dabei gehen Ladungen über, und beide sind danach entgegengesetzt geladen. Der geladene Stab verschiebt die Ladungen im Streifen und zieht ihn an. Berührt der Streifen den Stab, nimmt er gleichnamige Ladung auf und wird abgestoßen.",
+    "achten": [
       "Feuchte Luft schwächt den Effekt. Teste den Versuch vor der Stunde im Klassenraum.",
       "Laut Unterrichtsplan wird der Zauberstab schon bei der Vorstellung der Stationen vorgemacht."
     ],
-    "note": "Berührt der Lamettastreifen den geladenen Stab, nimmt er gleichnamige Ladung auf und wird danach abgestoßen. Die Kinder sehen dann erst Anziehung und danach Abstoßung.",
-    "open": [
-      "Heftseite für den Zauberstab erstellen und die Kinderfrage abstimmen.",
+    "offen": [
+      "Die Heftseite fehlt: Im Faltheft steht an dieser Stelle noch die Wärmebildkamera.",
+      "Die Kinderfrage ist ein Vorschlag aus dem Whitepaper und noch nicht abgestimmt.",
       "Lieferung von Lametta und zwei elektrischen Zauberstäben abwarten.",
       "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ],
+    "slug": "zauberstab",
+    "material": [
+      {
+        "name": "2 Kunststoffstäbe und 2 Plexiglasstäbe",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "3 Reibtücher",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "5 Lamettastreifen",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "15 weitere Lamettastreifen",
+        "status": "bestellt",
+        "note": ""
+      },
+      {
+        "name": "1 elektrischer Zauberstab",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "2 weitere elektrische Zauberstäbe",
+        "status": "bestellt",
+        "note": ""
+      }
     ]
   },
   {
-    "slug": "mikroskopie",
-    "heft": [
+    "name": "Das Mikroskop",
+    "short": "Mikroskop",
+    "icon": "mikro",
+    "fragen": [
       "Welche Farben haben die Lampen (LEDs) im Handy-Bildschirm?"
     ],
-    "difference": "Beim Schulbesuch liegt ein Handy unter einem Mikroskop der Universität. Kamera und Monitor zeigen das Bild für die ganze Gruppe.",
-    "material": [
-      { "name": "2 ältere weiße Mikroskope", "status": "da" },
-      { "name": "3 schwarze Mikroskope", "status": "offen", "note": "Lichtquelle defekt" },
-      { "name": "Handy als Probe", "status": "offen", "note": "[WELCHES GERÄT]" },
-      { "name": "Kamera und Monitor für die Gruppe", "status": "da" },
-      { "name": "Zwei Proben mit Deckglas und Objektträger", "status": "offen", "note": "noch vorzubereiten" }
+    "karte": "Welche Farben haben die Lampen (LEDs) im Handy-Bildschirm?",
+    "foto": "Handybildschirm unter dem Mikroskop, vergrößerte Farbpunkte",
+    "sehen": "Ein Handy liegt unter dem Mikroskop. Stark vergrößert besteht das Bild auf dem Bildschirm aus vielen winzigen Leuchtpunkten.",
+    "probieren": [
+      "Schau durch das Mikroskop auf den Bildschirm.",
+      "Welche Farben entdeckst du?",
+      "Schreibe oder zeichne sie in dein Entdeckerbuch."
     ],
-    "predict": "„Welche Farbe haben die Lämpchen, wenn der Bildschirm weiß leuchtet?“",
-    "try": "Jedes Kind schaut selbst. Kamera und Monitor zeigen das Bild für alle, die warten.",
-    "record": "Die Farben kommen als Wörter oder Zeichnung ins Entdeckerbuch. Lege Buntstifte bereit.",
-    "watch": [
+    "warum": "Jeder Bildpunkt hat drei winzige Lämpchen: ein rotes, ein grünes und ein blaues. Aus der Nähe siehst du sie einzeln. Aus der Ferne mischt dein Auge die drei Farben, und alle zusammen wirken weiß.",
+    "vermuten": "„Welche Farbe haben die Lämpchen, wenn der Bildschirm weiß leuchtet?“",
+    "ausprobieren": "Jedes Kind schaut selbst. Kamera und Monitor zeigen das Bild für alle, die warten.",
+    "festhalten": "Die Farben kommen als Wörter oder Zeichnung ins Entdeckerbuch. Lege Buntstifte bereit.",
+    "hintergrund": "Ein Bildschirm setzt jede Farbe aus drei Subpixeln zusammen: Rot, Grün und Blau. Ihre Helligkeiten addieren sich im Auge, weil die Punkte kleiner sind, als das Auge aus normalem Abstand auflösen kann (additive Farbmischung). Form und Anordnung der Subpixel hängen vom Display ab.",
+    "achten": [
       "Der Bildschirm leuchtet selbst. Die defekte Beleuchtung sollte bei diesem Versuch nicht stören. Prüfe das am Gerät.",
       "Stelle vorab die Vergrößerung ein, bei der die Farbpunkte klar zu sehen sind.",
-      "Objektiv und Display dürfen sich nicht berühren."
+      "Zeige auf dem Handy eine weiße Fläche und stelle die Helligkeit fest ein."
     ],
-    "open": [
+    "offen": [
       "Welche Mikroskope sind einsatzbereit?",
       "Passt das Handy unter das Objektiv?",
       "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ],
+    "slug": "mikroskop",
+    "material": [
+      {
+        "name": "2 ältere weiße Mikroskope",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "3 schwarze Mikroskope",
+        "status": "offen",
+        "note": "Lichtquelle defekt"
+      },
+      {
+        "name": "Handy als Probe",
+        "status": "offen",
+        "note": "[WELCHES GERÄT]"
+      },
+      {
+        "name": "Kamera und Monitor für die Gruppe",
+        "status": "da",
+        "note": ""
+      },
+      {
+        "name": "Zwei Proben mit Deckglas und Objektträger",
+        "status": "offen",
+        "note": "noch vorzubereiten"
+      }
     ]
   }
 ]
