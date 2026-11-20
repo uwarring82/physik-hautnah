@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "ballfalle",
+    "heft": [
+      "Wie viele Bälle kannst du gleichzeitig im Luftstrom fangen?",
+      "Was passiert, wenn du das Gebläserohr schräg stellst?"
+    ],
+    "difference": "Beim Schulbesuch ersetzen ein Gebläse mit Schlauch und Styroporkugeln den Föhn und den Tischtennisball von der Versuchsseite.",
+    "material": [
+      { "name": "2 Gebläse mit Schlauch", "status": "da", "note": "eines davon geliehen" },
+      { "name": "Styroporkugeln, mehr als 5", "status": "da" },
+      { "name": "Stativ", "status": "da" },
+      { "name": "Zweites Stativ für das zweite Gebläse", "status": "offen", "note": "noch zu besorgen" },
+      { "name": "Netzkabel", "status": "da" }
+    ],
+    "predict": "„Was glaubst du: Bleibt der Ball, wenn das Rohr schräg steht?“",
+    "try": "Die Kinder neigen das Rohr selbst und langsam. Lass sie zählen, wie viele Bälle gleichzeitig schweben.",
+    "record": "Die Zahl der Bälle und die Beobachtung zum schrägen Rohr kommen ins Entdeckerbuch.",
+    "watch": [
+      "Die Station braucht eine Steckdose. Lege das Kabel so, dass niemand darüber stolpert.",
+      "Mit zwei Gebläsen können zwei Kinder gleichzeitig arbeiten, sobald das zweite Stativ da ist."
+    ],
+    "open": [
+      "Zweites Stativ besorgen.",
+      "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ]
+  },
+  {
+    "slug": "elektromotor",
+    "heft": [
+      "Was muss der Draht berühren, damit er sich dreht?"
+    ],
+    "difference": "Die Versuchsseite beschreibt einen gekapselten Kleinmotor. Der Unterrichtsplan sieht für den Schulbesuch den Selbstbau aus Draht, Batterie und Neodym-Magnet vor. Die Angaben hier gelten für den Selbstbau.",
+    "material": [
+      { "name": "Draht", "status": "offen", "note": "[SORTE UND LÄNGE], Bestand prüfen" },
+      { "name": "Batterien", "status": "offen", "note": "[TYP UND ANZAHL], Bestand prüfen" },
+      { "name": "Neodym-Magnete", "status": "offen", "note": "Bestand prüfen. Ausgabe nur durch die Betreuung" },
+      { "name": "Einfache Magnete und Gegenstände zum Sortieren", "status": "offen", "note": "Reserve, falls eine Gruppe früher fertig ist" }
+    ],
+    "predict": "„Wo muss der Draht anliegen, damit Strom fließt?“",
+    "try": "Die Kinder setzen den Draht selbst auf. Du gibst den Magneten aus und sammelst ihn wieder ein.",
+    "record": "Die Kontaktstellen kommen als Satz oder als Skizze ins Entdeckerbuch.",
+    "watch": [
+      "Lege die Neodym-Magnete nicht offen hin. Du gibst sie aus und zählst sie am Ende.",
+      "Beim Selbstbau ist die Batterie fast kurzgeschlossen. Draht und Batterie werden warm: nach kurzer Zeit absetzen und abkühlen lassen.",
+      "Reserve aus dem Unterrichtsplan: mit einfachen Magneten sortieren, was magnetisch ist."
+    ],
+    "note": "Der Selbstbau ist ein Homopolarmotor. Der Strom fließt vom oberen Pol der Batterie durch den Draht zum Magneten, der leitend an der Unterseite der Batterie sitzt. Im Feld des Magneten wirkt auf die stromdurchflossenen Drahtstücke eine Kraft quer zu Strom und Feld. Daraus entsteht ein Drehmoment um die Achse der Batterie.",
+    "open": [
+      "Entscheiden, welche Variante beim Schulbesuch läuft: Selbstbau mit Neodym-Magnet oder gekapselter Kleinmotor.",
+      "Drahtsorte, Batterietyp und Stückzahl festlegen.",
+      "Erwärmung am echten Aufbau testen und eine Zeitgrenze festlegen.",
+      "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ]
+  },
+  {
+    "slug": "zauberstab",
+    "heft": [
+      "Was macht der leichte Streifen, wenn du ihm den Stab näherst?",
+      "Was ändert sich, nachdem du den Stab gerieben hast?"
+    ],
+    "heftNote": "Vorschlag aus dem Whitepaper. Im Faltheft steht an dieser Stelle noch die Wärmebildkamera.",
+    "difference": "Beim Schulbesuch ersetzen Kunststoff- und Plexiglasstäbe mit Lamettastreifen das Lineal und die Papierschnipsel von der Versuchsseite.",
+    "material": [
+      { "name": "2 Kunststoffstäbe und 2 Plexiglasstäbe", "status": "da" },
+      { "name": "3 Reibtücher", "status": "da" },
+      { "name": "5 Lamettastreifen", "status": "da" },
+      { "name": "15 weitere Lamettastreifen", "status": "bestellt" },
+      { "name": "1 elektrischer Zauberstab", "status": "da" },
+      { "name": "2 weitere elektrische Zauberstäbe", "status": "bestellt" }
+    ],
+    "predict": "„Was passiert, wenn der Stab dem Streifen nahe kommt? Und nach dem Reiben?“",
+    "try": "Erst ohne Reiben, dann mit. Den elektrischen Zauberstab führst du selbst vor.",
+    "record": "Vorher und nachher kommen als Beschreibung oder Zeichnung ins Entdeckerbuch.",
+    "watch": [
+      "Feuchte Luft schwächt den Effekt. Teste den Versuch vor der Stunde im Klassenraum.",
+      "Laut Unterrichtsplan wird der Zauberstab schon bei der Vorstellung der Stationen vorgemacht."
+    ],
+    "note": "Berührt der Lamettastreifen den geladenen Stab, nimmt er gleichnamige Ladung auf und wird danach abgestoßen. Die Kinder sehen dann erst Anziehung und danach Abstoßung.",
+    "open": [
+      "Heftseite für den Zauberstab erstellen und die Kinderfrage abstimmen.",
+      "Lieferung von Lametta und zwei elektrischen Zauberstäben abwarten.",
+      "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ]
+  },
+  {
+    "slug": "mikroskopie",
+    "heft": [
+      "Welche Farben haben die Lampen (LEDs) im Handy-Bildschirm?"
+    ],
+    "difference": "Beim Schulbesuch liegt ein Handy unter einem Mikroskop der Universität. Kamera und Monitor zeigen das Bild für die ganze Gruppe.",
+    "material": [
+      { "name": "2 ältere weiße Mikroskope", "status": "da" },
+      { "name": "3 schwarze Mikroskope", "status": "offen", "note": "Lichtquelle defekt" },
+      { "name": "Handy als Probe", "status": "offen", "note": "[WELCHES GERÄT]" },
+      { "name": "Kamera und Monitor für die Gruppe", "status": "da" },
+      { "name": "Zwei Proben mit Deckglas und Objektträger", "status": "offen", "note": "noch vorzubereiten" }
+    ],
+    "predict": "„Welche Farbe haben die Lämpchen, wenn der Bildschirm weiß leuchtet?“",
+    "try": "Jedes Kind schaut selbst. Kamera und Monitor zeigen das Bild für alle, die warten.",
+    "record": "Die Farben kommen als Wörter oder Zeichnung ins Entdeckerbuch. Lege Buntstifte bereit.",
+    "watch": [
+      "Der Bildschirm leuchtet selbst. Die defekte Beleuchtung sollte bei diesem Versuch nicht stören. Prüfe das am Gerät.",
+      "Stelle vorab die Vergrößerung ein, bei der die Farbpunkte klar zu sehen sind.",
+      "Objektiv und Display dürfen sich nicht berühren."
+    ],
+    "open": [
+      "Welche Mikroskope sind einsatzbereit?",
+      "Passt das Handy unter das Objektiv?",
+      "[AUFBAU IN SCHRITTEN] nach dem Probeaufbau ergänzen."
+    ]
+  }
+]
